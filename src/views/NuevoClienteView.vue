@@ -25,7 +25,7 @@ defineProps({
         type="text"
         label="Nombre(s)"
         placeholder="Nombre(s) del cliente"
-        prefix-icon="people"
+        prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
           required: 'El nombre del cliente es obligatorio',
@@ -35,7 +35,7 @@ defineProps({
         type="text"
         label="Apellido Paterno"
         placeholder="Apellido paterno del cliente"
-        prefix-icon="people"
+        prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
           required: 'El apellido paterno del cliente es obligatorio',
@@ -45,7 +45,7 @@ defineProps({
         type="text"
         label="Apellido Materno"
         placeholder="Apellido materno del cliente"
-        prefix-icon="people"
+        prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
           required: 'El apellido materno del cliente es obligatorio',
@@ -60,6 +60,17 @@ defineProps({
         :validation-messages="{
           required: 'El email del cliente es obligatorio',
           email: 'Ingresa un email válido',
+        }"
+      />
+      <FormKit
+        type="number"
+        label="Teléfono: XXX-XXX-XXXX"
+        placeholder="Teléfono del cliente"
+        prefix-icon="telephone"
+        validation="required|*matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}/"
+        :validation-messages="{
+          required: 'El teléfono del cliente es obligatorio',
+          matches: 'El formato no es válido',
         }"
       />
     </FormKit>
