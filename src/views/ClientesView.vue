@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="px-5 flex gap-5 justify-between items-center">
+  <div class="flex gap-5 justify-between items-center">
     <heading>Clientes</heading>
     <div>
       <RouterLink to="agregar-cliente"> {{ titulo }} </RouterLink>

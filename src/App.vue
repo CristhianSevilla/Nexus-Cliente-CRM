@@ -15,7 +15,7 @@ import { RouterView } from "vue-router";
     </div>
   </header>
 
-  <main class="max-w-7xl mx-auto mt-10">
+  <main class="max-w-7xl mx-auto mt-10 px-5">
     <RouterView />
   </main>
 </template>
