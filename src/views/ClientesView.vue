@@ -1,12 +1,13 @@
 <script setup>
-import { RouterLink } from "vue-router";
+import RouterLink from "../components/UI/RouterLink.vue";
 </script>
 
 <template>
-  <div class="px-5">
+  <div class="px-5 flex gap-5 justify-between items-center">
+    <h1 class="text-4xl font-extrabold text-blue-800">Clientes</h1>
+
     <div>
-      <RouterLink :to="{ name: 'agregar-cliente' }">Nuevo Cliente</RouterLink>
+      <RouterLink to="agregar-cliente"> Nuevo Cliente </RouterLink>
     </div>
-    <h1 class="text-4xl font-extrabold text-blue-200">Clientes</h1>
   </div>
 </template>
