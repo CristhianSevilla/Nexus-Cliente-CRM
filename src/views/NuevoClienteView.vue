@@ -17,4 +17,19 @@ defineProps({
       <RouterLink to="inicio"> {{ titulo }} </RouterLink>
     </div>
   </div>
+  <div class="px-5 mx-auto mt-10 bg-gray-200 shadow">
+    <FormKit type="form">
+      <FormKit
+        type="text"
+        label="Nombre"
+        placeholder="Nombre del cliente"
+        prefix-icon="avatarMan"
+        help="Coloca el nombre del cliente que desas registrar"
+        validation="required"
+        :validation-messages="{
+          required: 'El nombre del cliente es obligatorio',
+        }"
+      />
+    </FormKit>
+  </div>
 </template>
