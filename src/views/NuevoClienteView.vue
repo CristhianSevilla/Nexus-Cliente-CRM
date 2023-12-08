@@ -8,6 +8,10 @@ defineProps({
     type: String,
   },
 });
+
+const handleSubmit = (data) => {
+  console.log(data);
+};
 </script>
 
 <template>
@@ -24,11 +28,13 @@ defineProps({
       type="form"
       submit-label="Agregar Cliente"
       incomplete-message="No se pudo enviar, revisa los mensajes"
+      @submit="handleSubmit"
     >
       <FormKit
         type="text"
         label="Nombre(s)"
         placeholder="Nombre(s) del cliente"
+        name="nombre"
         prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
@@ -39,6 +45,7 @@ defineProps({
         type="text"
         label="Apellido Paterno"
         placeholder="Apellido paterno del cliente"
+        name="apellidoP"
         prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
@@ -49,6 +56,7 @@ defineProps({
         type="text"
         label="Apellido Materno"
         placeholder="Apellido materno del cliente"
+        name="apellidoM"
         prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
@@ -59,6 +67,7 @@ defineProps({
         type="email"
         label="Email"
         placeholder="Email del cliente"
+        name="email"
         prefix-icon="email"
         validation="required|email"
         :validation-messages="{
@@ -70,6 +79,7 @@ defineProps({
         type="text"
         label="Teléfono: XXX-XXX-XXXX"
         placeholder="Teléfono del cliente"
+        name="telefono"
         prefix-icon="telephone"
         validation="required|*matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}/"
         :validation-messages="{
@@ -81,12 +91,14 @@ defineProps({
         type="text"
         label="Empresa"
         placeholder="Empresa del cliente"
+        name="empresa"
         prefix-icon="folder"
       />
       <FormKit
         type="text"
         label="Puesto"
         placeholder="Puesto del cliente"
+        name="puesto"
         prefix-icon="people"
       />
     </FormKit>
