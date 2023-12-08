@@ -1,11 +1,11 @@
 <script setup>
 import RouterLink from "../components/UI/RouterLink.vue";
+import Heading from "@/components/UI/Heading.vue";
 </script>
 
 <template>
   <div class="px-5 flex gap-5 justify-between items-center">
-    <h1 class="text-4xl font-extrabold text-blue-800">Nuevo Cliente</h1>
-
+    <heading>Nuevo Cliente</heading>
     <div>
       <RouterLink to="inicio"> Volver </RouterLink>
     </div>
