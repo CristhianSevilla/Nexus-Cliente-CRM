@@ -20,7 +20,11 @@ defineProps({
   <div
     class="px-10 mx-auto mt-12 bg-gray-200 shadow md:w-2/3 xl:w-3/5 py-10 rounded-lg"
   >
-    <FormKit type="form">
+    <FormKit
+      type="form"
+      submit-label="Agregar Cliente"
+      incomplete-message="No se pudo enviar, revisa los mensajes"
+    >
       <FormKit
         type="text"
         label="Nombre(s)"
@@ -63,7 +67,7 @@ defineProps({
         }"
       />
       <FormKit
-        type="number"
+        type="text"
         label="Teléfono: XXX-XXX-XXXX"
         placeholder="Teléfono del cliente"
         prefix-icon="telephone"
@@ -73,6 +77,18 @@ defineProps({
           matches: 'El formato no es válido',
         }"
       />
+      <FormKit
+        type="text"
+        label="Empresa"
+        placeholder="Empresa del cliente"
+        prefix-icon="folder"
+      />
+      <FormKit
+        type="text"
+        label="Puesto"
+        placeholder="Puesto del cliente"
+        prefix-icon="people"
+      />
     </FormKit>
   </div>
 </template>
@@ -80,5 +96,12 @@ defineProps({
 <style>
 .formkit-wrapper {
   max-width: 100%;
+}
+.formkit-wrapper .formkit-input {
+  background: transparent;
+}
+.formkit-wrapper .formkit-input[type="submit"] {
+  background: #c2410c;
+  font-weight: 700;
 }
 </style>
