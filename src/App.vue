@@ -10,7 +10,7 @@ import { RouterView } from "vue-router";
         <h1 class="text-4xl font-extrabold text-blue-200">
           <span class="text-blue-800">Nexus</span>Client
         </h1>
-        <p class="text-blue-200">Donde Cada Interacción Cuenta</p>
+        <p class="text-blue-200 capitalize">Donde cada interacción cuenta</p>
       </div>
     </div>
   </header>
