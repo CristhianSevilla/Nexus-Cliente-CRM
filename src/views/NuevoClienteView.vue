@@ -22,7 +22,7 @@ const handleSubmit = (data) => {
     </div>
   </div>
   <div
-    class="px-10 mx-auto mt-12 bg-gray-200 shadow md:w-2/3 xl:w-3/5 py-10 rounded-lg"
+    class="px-10 mx-auto mt-12 text-gray-300 shadow md:w-2/3 xl:w-3/5 py-10 rounded-lg"
   >
     <FormKit
       type="form"
@@ -111,9 +111,15 @@ const handleSubmit = (data) => {
 }
 .formkit-wrapper .formkit-input {
   background: transparent;
+  color: #d0d0d0;
 }
 .formkit-wrapper .formkit-input[type="submit"] {
-  background: #c2410c;
+  background: #a3e635;
   font-weight: 700;
+  color: #000;
+  transition: all 0.5s ease;
+}
+.formkit-wrapper .formkit-input[type="submit"]:hover {
+  background: #87c229;
 }
 </style>
