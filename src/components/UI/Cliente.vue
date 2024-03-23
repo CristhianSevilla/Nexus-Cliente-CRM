@@ -22,13 +22,12 @@ const nombreCliente = computed(() => {
 <template>
   <tr>
     <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm sm:pl-0">
-      <p class="font-medium text-blue-100">{{ nombreCliente }}</p>
-      <p class="text-gray-400">{{ cliente.email }}</p>
-      <p class="text-gray-400 text-xs">{{ cliente.telefono }}</p>
+      <p class="font-medium text-gray-400">{{ nombreCliente }}</p>
+      <p class="text-gray-500">{{ cliente.email }}</p>
     </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
-      <p class="text-blue-100 font-bold">{{ cliente.empresa }}</p>
-      <p class="text-gray-400">{{ cliente.puesto }}</p>
+      <p class="text-gray-400 font-bold">{{ cliente.empresa }}</p>
+      <p class="text-gray-500">{{ cliente.puesto }}</p>
     </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm"></td>
     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
