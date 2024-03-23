@@ -5,7 +5,7 @@ import { RouterView } from "vue-router";
 <template>
   <header>
     <div
-      class="mx-auto px-5 xl:max-w-7xl py-7 flex items-center border-b border-blue-100"
+      class="mx-auto px-5 xl:max-w-7xl py-7 flex items-center border-b border-gray-400"
     >
       <img class="w-20 mr-5" src="/icon.svg" alt="Logo" />
       <div>
