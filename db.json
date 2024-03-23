@@ -27,6 +27,16 @@
       "telefono": "123-123-45678",
       "empresa": "McDonalds",
       "puesto": "Gerente"
+    },
+    {
+      "id": "88fe",
+      "nombre": "José Luis",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Grago",
+      "email": "jose@correo.com",
+      "telefono": "123-123-1234",
+      "empresa": "V&D",
+      "puesto": "Consultor"
     }
   ]
 }
