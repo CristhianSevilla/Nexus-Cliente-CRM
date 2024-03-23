@@ -37,6 +37,16 @@
       "telefono": "123-123-1234",
       "empresa": "V&D",
       "puesto": "Consultor"
+    },
+    {
+      "id": "2887",
+      "nombre": "Margarita",
+      "apellidoP": "Ramirez",
+      "apellidoM": "Chacha",
+      "email": "margarita@correo.com",
+      "telefono": "123-123-1234",
+      "empresa": "AllBran",
+      "puesto": "PM"
     }
   ]
 }

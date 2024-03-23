@@ -1,6 +1,7 @@
 <script setup>
 import { FormKit } from "@formkit/vue";
 import { useRouter } from "vue-router";
+import ClienteService from "@/services/ClienteService";
 import axios from "../api/axios";
 import RouterLink from "../components/UI/RouterLink.vue";
 import Heading from "@/components/UI/Heading.vue";
@@ -13,8 +14,7 @@ defineProps({
 });
 
 const handleSubmit = (data) => {
-  axios
-    .post("/clientes", data)
+  ClienteService.agregarCliente(data)
     .then((respuesta) => {
       //Redireccionar al usuario
       router.push({ name: "inicio" });
