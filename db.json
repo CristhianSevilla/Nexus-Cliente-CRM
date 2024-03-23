@@ -1,12 +1,22 @@
 {
-    "clientes" : [
-        {
-            "nombre" : "juan",
-            "id" : 1
-        },
-        {
-            "nombre" : "Cristhian",
-            "id" : 2
-        }
-    ]
+  "clientes": [
+    {
+      "id": "ca53",
+      "nombre": "Cristhian",
+      "apellidoP": "sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca"
+    },
+    {
+      "id": "ad90",
+      "nombre": "Cristhian",
+      "apellidoP": "sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca"
+    }
+  ]
 }
