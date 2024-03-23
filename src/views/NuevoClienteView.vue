@@ -36,7 +36,7 @@ const handleSubmit = (data) => {
     <FormKit
       type="form"
       submit-label="Agregar Cliente"
-      incomplete-message="No se pudo enviar, revisa los mensajes"
+      incomplete-message="No se pudo agregar"
       @submit="handleSubmit"
     >
       <FormKit
@@ -47,7 +47,7 @@ const handleSubmit = (data) => {
         prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
-          required: 'El nombre del cliente es obligatorio',
+          required: 'El campo nombre es obligatorio',
         }"
       />
       <FormKit
@@ -58,7 +58,7 @@ const handleSubmit = (data) => {
         prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
-          required: 'El apellido paterno del cliente es obligatorio',
+          required: 'El campo apellido paterno es obligatorio',
         }"
       />
       <FormKit
@@ -69,7 +69,7 @@ const handleSubmit = (data) => {
         prefix-icon="avatarMan"
         validation="required"
         :validation-messages="{
-          required: 'El apellido materno del cliente es obligatorio',
+          required: 'El campo apellido materno es obligatorio',
         }"
       />
       <FormKit
@@ -80,7 +80,7 @@ const handleSubmit = (data) => {
         prefix-icon="email"
         validation="required|email"
         :validation-messages="{
-          required: 'El email del cliente es obligatorio',
+          required: 'El campo email es obligatorio',
           email: 'Ingresa un email válido',
         }"
       />
@@ -92,7 +92,7 @@ const handleSubmit = (data) => {
         prefix-icon="telephone"
         validation="required|*matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}/"
         :validation-messages="{
-          required: 'El teléfono del cliente es obligatorio',
+          required: 'El campo teléfono es obligatorio',
           matches: 'El formato no es válido',
         }"
       />
