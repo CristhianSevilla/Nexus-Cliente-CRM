@@ -35,7 +35,7 @@ const nombreCliente = computed(() => {
       <RouterLink to="/" class="text-lime-400 hover:text-lime-500 mr-5">
         Editar
       </RouterLink>
-      <button class="text-red-600 hover:text-red-700">Eliminar</button>
+      <button class="text-red-500 hover:text-red-600">Eliminar</button>
     </td>
   </tr>
 </template>
