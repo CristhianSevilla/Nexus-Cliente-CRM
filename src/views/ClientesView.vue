@@ -79,6 +79,6 @@ const existenClientes = computed(() => {
   </div>
 
   <div v-else>
-    <p class="text-blue-200 mt-10 text-center">No existen clientes</p>
+    <p class="text-blue-100 mt-10 text-center">No existen clientes</p>
   </div>
 </template>
