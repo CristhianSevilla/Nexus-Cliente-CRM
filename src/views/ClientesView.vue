@@ -33,9 +33,9 @@ const existenClientes = computed(() => {
   </div>
 
   <div v-if="existenClientes" class="flow-root mx-auto mt-10 p-5 shadow">
-    <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="-my-2 -mx-4 sm:-mx-6 lg:-mx-8">
       <div
-        class="min-w-full py-2 align-middle sm:px-6 lg:px-8 border border-spacing-0 border-gray-700 bg-gray-900 rounded"
+        class="min-w-full py-2 align-middle sm:px-6 lg:px-8 border border-spacing-0 border-gray-700 bg-gray-900 rounded overflow-x-auto"
       >
         <table class="min-w-full divide-y divide-gray-600">
           <thead>
