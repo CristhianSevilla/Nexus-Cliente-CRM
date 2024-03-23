@@ -1,6 +1,17 @@
 <script setup>
+import { onMounted } from "vue";
+import axios from "axios";
 import RouterLink from "../components/UI/RouterLink.vue";
 import Heading from "@/components/UI/Heading.vue";
+
+onMounted(() => {
+  axios
+    .get("http://localhost:4000/clientes")
+    .then(({ data }) => {
+      console.log(data);
+    })
+    .catch((error) => console.log("Ocurrio un error"));
+});
 
 defineProps({
   titulo: {
