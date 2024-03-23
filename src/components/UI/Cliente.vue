@@ -22,16 +22,16 @@ const nombreCliente = computed(() => {
 <template>
   <tr>
     <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm sm:pl-0">
-      <p class="font-medium text-gray-900">{{ nombreCliente }}</p>
-      <p class="text-gray-500">{{ cliente.email }}</p>
-      <p class="text-gray-500 text-xs">{{ cliente.telefono }}</p>
+      <p class="font-medium text-blue-100">{{ nombreCliente }}</p>
+      <p class="text-gray-400">{{ cliente.email }}</p>
+      <p class="text-gray-400 text-xs">{{ cliente.telefono }}</p>
     </td>
-    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-      <p class="text-gray-900 font-bold">{{ cliente.empresa }}</p>
-      <p class="text-gray-600">{{ cliente.puesto }}</p>
+    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
+      <p class="text-blue-100 font-bold">{{ cliente.empresa }}</p>
+      <p class="text-gray-400">{{ cliente.puesto }}</p>
     </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm"></td>
-    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
       <RouterLink to="/" class="text-lime-400 hover:text-lime-500 mr-5">
         Editar
       </RouterLink>
