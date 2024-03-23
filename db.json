@@ -47,6 +47,39 @@
       "telefono": "123-123-1234",
       "empresa": "AllBran",
       "puesto": "PM"
+    },
+    {
+      "id": "e7d9",
+      "nombre": "Luis Alvaro ",
+      "apellidoP": "Sevilla ",
+      "apellidoM": "Ramirez",
+      "email": "alvaro@correo.com",
+      "telefono": "123-122-1234",
+      "empresa": "GOT",
+      "puesto": "Supervisor",
+      "estado": 1
+    },
+    {
+      "id": "f71d",
+      "nombre": "Luis Alvaro ",
+      "apellidoP": "Sevilla ",
+      "apellidoM": "Ramirez",
+      "email": "alvaro@correo.com",
+      "telefono": "123-122-1234",
+      "empresa": "GOT",
+      "puesto": "Supervisor",
+      "estado": 1
+    },
+    {
+      "id": "6761",
+      "nombre": "Luis Alvaro ",
+      "apellidoP": "Sevilla ",
+      "apellidoM": "Ramirez",
+      "email": "alvaro@correo.com",
+      "telefono": "123-122-1234",
+      "empresa": "GOT",
+      "puesto": "Supervisor",
+      "estado": 1
     }
   ]
 }

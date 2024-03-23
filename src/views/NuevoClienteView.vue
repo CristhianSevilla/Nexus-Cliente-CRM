@@ -14,6 +14,7 @@ defineProps({
 });
 
 const handleSubmit = (data) => {
+  data.estado = 1;
   ClienteService.agregarCliente(data)
     .then((respuesta) => {
       //Redireccionar al usuario

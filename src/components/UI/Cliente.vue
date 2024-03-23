@@ -17,6 +17,10 @@ const nombreCliente = computed(() => {
     props.cliente.apellidoM
   );
 });
+
+const estadoCliente = computed(() => {
+  return props.cliente.estado;
+});
 </script>
 
 <template>
@@ -29,7 +33,18 @@ const nombreCliente = computed(() => {
       <p class="text-gray-400 font-bold">{{ cliente.empresa }}</p>
       <p class="text-gray-500">{{ cliente.puesto }}</p>
     </td>
-    <td class="whitespace-nowrap px-3 py-4 text-sm"></td>
+    <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+      <button
+        class="inline-flex rounded-full text-xs font-semibold leading-5 border"
+        :class="[
+          estadoCliente
+            ? 'bg-green-200 text-green-800 border-green-700 px-3'
+            : 'bg-red-200 text-red-800 border-red-800 px-2',
+        ]"
+      >
+        {{ estadoCliente ? "Activo" : "Inactivo" }}
+      </button>
+    </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
       <RouterLink to="/" class="text-lime-400 hover:text-lime-500 mr-5">
         Editar
