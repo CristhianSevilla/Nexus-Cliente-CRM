@@ -31,7 +31,7 @@ const handleSubmit = (data) => {
     </div>
   </div>
   <div
-    class="px-10 mx-auto mt-12 text-gray-300 shadow md:w-2/3 xl:w-3/5 py-10 rounded-lg"
+    class="px-10 mx-auto mt-12 text-blue-100 shadow md:w-2/3 xl:w-3/5 py-10 rounded bg-gray-900"
   >
     <FormKit
       type="form"
