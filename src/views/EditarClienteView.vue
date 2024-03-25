@@ -1,11 +1,12 @@
 <script setup>
 import { onMounted, reactive, ref } from "vue";
 import { FormKit } from "@formkit/vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import ClienteService from "@/services/ClienteService";
 import RouterLink from "../components/UI/RouterLink.vue";
 import Heading from "@/components/UI/Heading.vue";
 
+const router = useRouter();
 const route = useRoute();
 const { id } = route.params;
 
@@ -32,7 +33,11 @@ defineProps({
   },
 });
 
-const handleSubmit = (data) => {};
+const handleSubmit = (data) => {
+  ClienteService.actualizarCliente(id, data)
+    .then(() => router.push({ name: "inicio" }))
+    .catch((error) => console.log(error));
+};
 </script>
 
 <template>
@@ -47,7 +52,7 @@ const handleSubmit = (data) => {};
   >
     <FormKit
       type="form"
-      submit-label="Agregar Cliente"
+      submit-label="Editar Cliente"
       incomplete-message="No se pudo agregar"
       @submit="handleSubmit"
       :value="formData"

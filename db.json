@@ -1,22 +1,24 @@
 {
   "clientes": [
     {
-      "id": "ca53",
       "nombre": "Cristhian",
-      "apellidoP": "sevilla",
-      "apellidoM": "Sevilla",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Ramírez",
       "email": "crissev17@gmail.com",
       "telefono": "729-360-6532",
-      "empresa": "tecnológico de Toluca"
+      "empresa": "Exos",
+      "puesto": "Developer",
+      "estado": 1,
+      "id": "ca53"
     },
     {
-      "id": "56bc",
-      "nombre": "Cristhian",
-      "apellidoP": "sevilla",
+      "nombre": "Raul",
+      "apellidoP": "Garcia",
       "apellidoM": "Sevilla",
       "email": "crissev17@gmail.com",
       "telefono": "729-360-6532",
-      "empresa": "tecnológico de Toluca"
+      "empresa": "tecnológico de Toluca",
+      "id": "56bc"
     },
     {
       "id": "c547",
@@ -32,7 +34,7 @@
       "id": "88fe",
       "nombre": "José Luis",
       "apellidoP": "Sevilla",
-      "apellidoM": "Grago",
+      "apellidoM": "Grego",
       "email": "jose@correo.com",
       "telefono": "123-123-1234",
       "empresa": "V&D",
@@ -79,6 +81,17 @@
       "telefono": "123-122-1234",
       "empresa": "GOT",
       "puesto": "Supervisor",
+      "estado": 1
+    },
+    {
+      "id": "5dad",
+      "nombre": "Jonathan ",
+      "apellidoP": "Díaz",
+      "apellidoM": "Espinoza",
+      "email": "jona@correo.com",
+      "telefono": "123-456-7890",
+      "empresa": "DelRamz",
+      "puesto": "Químico",
       "estado": 1
     }
   ]
