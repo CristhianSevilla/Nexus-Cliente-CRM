@@ -1,4 +1,5 @@
 <script setup>
+import { onMounted } from "vue";
 import { FormKit } from "@formkit/vue";
 import { useRoute } from "vue-router";
 import ClienteService from "@/services/ClienteService";
@@ -6,9 +7,13 @@ import RouterLink from "../components/UI/RouterLink.vue";
 import Heading from "@/components/UI/Heading.vue";
 
 const route = useRoute();
-
 const { id } = route.params;
-console.log(id);
+
+onMounted(() => {
+  ClienteService.obtenerCliente(id)
+    .then(({ data }) => console.log(data))
+    .catch((error) => console.log(error));
+});
 
 defineProps({
   titulo: {
