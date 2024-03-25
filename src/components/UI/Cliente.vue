@@ -28,9 +28,12 @@ const estadoCliente = computed(() => {
 <template>
   <tr>
     <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm sm:pl-0">
-      <button class="font-medium text-gray-300 hover:text-lime-400">
+      <RouterLink
+        :to="{ name: 'detalle-cliente', params: { id: cliente.id } }"
+        class="font-medium text-gray-300 hover:text-lime-400"
+      >
         {{ nombreCliente }}
-      </button>
+      </RouterLink>
       <p class="text-gray-500">{{ cliente.email }}</p>
     </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
