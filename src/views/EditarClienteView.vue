@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, reactive, ref } from "vue";
 import { FormKit } from "@formkit/vue";
 import { useRoute } from "vue-router";
 import ClienteService from "@/services/ClienteService";
@@ -9,9 +9,20 @@ import Heading from "@/components/UI/Heading.vue";
 const route = useRoute();
 const { id } = route.params;
 
+const formData = reactive({});
+//tambien se puede usar ref
+// const formData = ref({});
+
 onMounted(() => {
   ClienteService.obtenerCliente(id)
-    .then(({ data }) => console.log(data))
+    .then(({ data }) => {
+      //Escribir en formData los datos que tenemos en data ejem.
+      // formData.nombre = data.nombre;
+      // formData.apellidoP = data.apellidoP;
+      Object.assign(formData, data);
+      //para ref
+      // formData.value = data;
+    })
     .catch((error) => console.log(error));
 });
 
@@ -39,6 +50,7 @@ const handleSubmit = (data) => {};
       submit-label="Agregar Cliente"
       incomplete-message="No se pudo agregar"
       @submit="handleSubmit"
+      :value="formData"
     >
       <FormKit
         type="text"
@@ -50,6 +62,7 @@ const handleSubmit = (data) => {};
         :validation-messages="{
           required: 'El campo nombre es obligatorio',
         }"
+        v-model="formData.nombre"
       />
       <FormKit
         type="text"
@@ -58,6 +71,7 @@ const handleSubmit = (data) => {};
         name="apellidoP"
         prefix-icon="avatarMan"
         validation="required"
+        v-model="formData.apellidoP"
         :validation-messages="{
           required: 'El campo apellido paterno es obligatorio',
         }"
@@ -69,6 +83,7 @@ const handleSubmit = (data) => {};
         name="apellidoM"
         prefix-icon="avatarMan"
         validation="required"
+        v-model="formData.apellidoM"
         :validation-messages="{
           required: 'El campo apellido materno es obligatorio',
         }"
@@ -80,6 +95,7 @@ const handleSubmit = (data) => {};
         name="email"
         prefix-icon="email"
         validation="required|email"
+        v-model="formData.email"
         :validation-messages="{
           required: 'El campo email es obligatorio',
           email: 'Ingresa un email válido',
@@ -92,6 +108,7 @@ const handleSubmit = (data) => {};
         name="telefono"
         prefix-icon="telephone"
         validation="required|*matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}/"
+        v-model="formData.telefono"
         :validation-messages="{
           required: 'El campo teléfono es obligatorio',
           matches: 'El formato no es válido',
@@ -103,6 +120,7 @@ const handleSubmit = (data) => {};
         placeholder="Empresa del cliente"
         name="empresa"
         prefix-icon="folder"
+        v-model="formData.empresa"
       />
       <FormKit
         type="text"
@@ -110,6 +128,7 @@ const handleSubmit = (data) => {};
         placeholder="Puesto del cliente"
         name="puesto"
         prefix-icon="people"
+        v-model="formData.puesto"
       />
     </FormKit>
   </div>
