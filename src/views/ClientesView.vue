@@ -42,26 +42,17 @@ const existenClientes = computed(() => {
             <tr>
               <th
                 scope="col"
-                class="p-2 text-left text-sm font-extrabold text-blue-100"
+                class="p-2 text-left text font-semibold text-blue-100"
               >
                 Nombre
               </th>
-              <th
-                scope="col"
-                class="p-2 text-left text-sm font-extrabold text-blue-100"
-              >
+              <th scope="col" class="p-2 text-left font-semibold text-blue-100">
                 Empresa
               </th>
-              <th
-                scope="col"
-                class="p-2 text-left text-sm font-extrabold text-blue-100"
-              >
+              <th scope="col" class="p-2 text-left font-semibold text-blue-100">
                 Estado
               </th>
-              <th
-                scope="col"
-                class="p-2 text-left text-sm font-extrabold text-blue-100"
-              >
+              <th scope="col" class="p-2 text-left font-semibold text-blue-100">
                 Acciones
               </th>
             </tr>
