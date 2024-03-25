@@ -8,7 +8,7 @@ const props = defineProps({
   },
 });
 
-defineEmits(["actulizar-estado", "eliminar-cliente"]);
+defineEmits(["actualizar-estado", "eliminar-cliente"]);
 
 const nombreCliente = computed(() => {
   return (
@@ -28,7 +28,9 @@ const estadoCliente = computed(() => {
 <template>
   <tr>
     <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm sm:pl-0">
-      <p class="font-medium text-gray-300">{{ nombreCliente }}</p>
+      <button class="font-medium text-gray-300 hover:text-lime-400">
+        {{ nombreCliente }}
+      </button>
       <p class="text-gray-500">{{ cliente.email }}</p>
     </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
@@ -44,7 +46,7 @@ const estadoCliente = computed(() => {
             : 'bg-red-200 text-red-800 border-red-800 px-2',
         ]"
         @click="
-          $emit('actulizar-estado', { id: cliente.id, estado: cliente.estado })
+          $emit('actualizar-estado', { id: cliente.id, estado: cliente.estado })
         "
       >
         {{ estadoCliente ? "Activo" : "Inactivo" }}

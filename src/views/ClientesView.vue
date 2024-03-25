@@ -79,7 +79,7 @@ const eliminarCliente = (id) => {
               v-for="cliente in clientes"
               :key="cliente.id"
               :cliente="cliente"
-              @actulizar-estado="actualizarEstado"
+              @actualizar-estado="actualizarEstado"
               @eliminar-cliente="eliminarCliente"
             />
           </tbody>
