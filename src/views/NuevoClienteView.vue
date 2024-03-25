@@ -2,10 +2,10 @@
 import { FormKit } from "@formkit/vue";
 import { useRouter } from "vue-router";
 import ClienteService from "@/services/ClienteService";
-import axios from "../api/axios";
 import RouterLink from "../components/UI/RouterLink.vue";
 import Heading from "@/components/UI/Heading.vue";
-import router from "@/router";
+
+const router = useRouter();
 
 defineProps({
   titulo: {
@@ -16,10 +16,7 @@ defineProps({
 const handleSubmit = (data) => {
   data.estado = 1;
   ClienteService.agregarCliente(data)
-    .then((respuesta) => {
-      //Redireccionar al usuario
-      router.push({ name: "inicio" });
-    })
+    .then(() => router.push({ name: "inicio" }))
     .catch((error) => console.log(error));
 };
 </script>

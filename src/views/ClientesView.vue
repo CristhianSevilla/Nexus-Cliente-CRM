@@ -35,9 +35,9 @@ const actualizarEstado = ({ id, estado }) => {
 
 <template>
   <div class="flex gap-5 justify-between items-center">
-    <heading>Clientes</heading>
+    <heading>{{ titulo }}</heading>
     <div>
-      <RouterLink to="agregar-cliente"> {{ titulo }} </RouterLink>
+      <RouterLink to="agregar-cliente"> Nuevo Cliente </RouterLink>
     </div>
   </div>
 

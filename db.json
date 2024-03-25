@@ -7,7 +7,7 @@
       "email": "crissev17@gmail.com",
       "telefono": "729-360-6532",
       "empresa": "Exos",
-      "puesto": "Developer",
+      "puesto": "Developer Jr",
       "estado": false,
       "id": "ca53"
     },
@@ -96,6 +96,601 @@
       "telefono": "123-456-7890",
       "empresa": "DelRamz",
       "puesto": "Químico",
+      "estado": 1
+    },
+    {
+      "id": "fd09",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "0df8",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "cbf6",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "e9ca",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "139e",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "eabf",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "8323",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "9e72",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "03a5",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "8426",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "661c",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "2e41",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "d43e",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "2235",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "99e2",
+      "nombre": "Cristhian",
+      "apellidoP": "Vera",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "1dcf",
+      "nombre": "Cristhian",
+      "apellido": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "7293606532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "edb0",
+      "nombre": "Juan",
+      "apellido": "Carrillo",
+      "email": "juan@correo.com",
+      "estado": 1
+    },
+    {
+      "id": "d85a",
+      "nombre": "Cristhian",
+      "apellido": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "7293606532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "1cb4",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "7d72",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "0368",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "ccca",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "bc79",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "c021",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "61c5",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "fdc4",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "481c",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "9d75",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "76d2",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "8203",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "5427",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "3b1c",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "ddfe",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "b580",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "d55a",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "83c4",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "c4c7",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "fe5a",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "4e31",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "a5e3",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "d745",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "9587",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "ecc9",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "e7d2",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "be52",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "ecf0",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "9f7a",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "de6f",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "0baa",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "720d",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "be6c",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "511e",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "d56d",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "2b33",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "e6d0",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "5c8f",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "64cd",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "57e3",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "4979",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
+      "estado": 1
+    },
+    {
+      "id": "fbd6",
+      "nombre": "Cristhian",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Sevilla",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "tecnológico de Toluca",
       "estado": 1
     }
   ]
