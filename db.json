@@ -8,7 +8,7 @@
       "telefono": "729-360-6532",
       "empresa": "Exos",
       "puesto": "Developer",
-      "estado": 1,
+      "estado": false,
       "id": "ca53"
     },
     {
@@ -18,7 +18,8 @@
       "email": "crissev17@gmail.com",
       "telefono": "729-360-6532",
       "empresa": "tecnológico de Toluca",
-      "id": "56bc"
+      "id": "56bc",
+      "estado": true
     },
     {
       "id": "c547",
@@ -28,7 +29,8 @@
       "email": "Jeff@correro.com",
       "telefono": "123-123-45678",
       "empresa": "McDonalds",
-      "puesto": "Gerente"
+      "puesto": "Gerente",
+      "estado": true
     },
     {
       "id": "88fe",
@@ -38,7 +40,8 @@
       "email": "jose@correo.com",
       "telefono": "123-123-1234",
       "empresa": "V&D",
-      "puesto": "Consultor"
+      "puesto": "Consultor",
+      "estado": true
     },
     {
       "id": "2887",
@@ -48,7 +51,8 @@
       "email": "margarita@correo.com",
       "telefono": "123-123-1234",
       "empresa": "AllBran",
-      "puesto": "PM"
+      "puesto": "PM",
+      "estado": true
     },
     {
       "id": "e7d9",
@@ -70,7 +74,7 @@
       "telefono": "123-122-1234",
       "empresa": "GOT",
       "puesto": "Supervisor",
-      "estado": 1
+      "estado": true
     },
     {
       "id": "6761",
@@ -81,7 +85,7 @@
       "telefono": "123-122-1234",
       "empresa": "GOT",
       "puesto": "Supervisor",
-      "estado": 1
+      "estado": true
     },
     {
       "id": "5dad",

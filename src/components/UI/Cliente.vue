@@ -8,6 +8,8 @@ const props = defineProps({
   },
 });
 
+defineEmits(["actulizar-estado"]);
+
 const nombreCliente = computed(() => {
   return (
     props.cliente.nombre +
@@ -41,6 +43,9 @@ const estadoCliente = computed(() => {
             ? 'bg-green-200 text-green-800 border-green-700 px-3'
             : 'bg-red-200 text-red-800 border-red-800 px-2',
         ]"
+        @click="
+          $emit('actulizar-estado', { id: cliente.id, estado: cliente.estado })
+        "
       >
         {{ estadoCliente ? "Activo" : "Inactivo" }}
       </button>

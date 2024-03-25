@@ -15,4 +15,7 @@ export default {
     actualizarCliente(id, data){
         return api.patch( path + id, data)
     },
+    cambiarEstadoCliente(id, data){
+        return api.patch(path + id, data)
+    }
 }
