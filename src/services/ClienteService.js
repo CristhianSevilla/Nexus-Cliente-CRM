@@ -17,5 +17,8 @@ export default {
     },
     cambiarEstadoCliente(id, data){
         return api.patch(path + id, data)
+    },
+    eliminarCliente(id){
+       return api.delete(path + id)
     }
 }
