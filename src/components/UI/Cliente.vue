@@ -46,7 +46,10 @@ const estadoCliente = computed(() => {
       </button>
     </td>
     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-400">
-      <RouterLink to="/" class="text-lime-400 hover:text-lime-500 mr-5">
+      <RouterLink
+        :to="{ name: 'editar-cliente', params: { id: cliente.id } }"
+        class="text-lime-400 hover:text-lime-500 mr-5"
+      >
         Editar
       </RouterLink>
       <button class="text-red-500 hover:text-red-600">Eliminar</button>

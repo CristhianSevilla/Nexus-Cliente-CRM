@@ -13,22 +13,14 @@ defineProps({
   },
 });
 
-const handleSubmit = (data) => {
-  data.estado = 1;
-  ClienteService.agregarCliente(data)
-    .then((respuesta) => {
-      //Redireccionar al usuario
-      router.push({ name: "inicio" });
-    })
-    .catch((error) => console.log(error));
-};
+const handleSubmit = (data) => {};
 </script>
 
 <template>
   <div class="flex gap-5 justify-between items-center">
     <heading>{{ titulo }}</heading>
     <div>
-      <RouterLink to="inicio"> Volver </RouterLink>
+      <RouterLink to="inicio"> cancelar </RouterLink>
     </div>
   </div>
   <div
