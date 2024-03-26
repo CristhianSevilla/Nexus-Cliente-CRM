@@ -1,7 +1,7 @@
 {
   "clientes": [
     {
-      "nombre": "Cristhian",
+      "nombre": "Cristhian Uriel",
       "apellidoP": "Sevilla",
       "apellidoM": "Ramírez",
       "email": "crissev17@gmail.com",
@@ -13,7 +13,7 @@
     },
     {
       "id": "c547",
-      "nombre": "Jefferson",
+      "nombre": "Jefferson Nicolas ",
       "apellidoP": "Vera",
       "apellidoM": "Tuarez",
       "email": "Jeff@correro.com",

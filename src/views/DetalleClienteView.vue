@@ -105,7 +105,7 @@ const estadoCliente = computed(() => {
         </p>
         <div class="flex mt-4">
           <RouterLink
-            :to="{ name: 'editar-cliente' }"
+            :to="{ name: 'editar-cliente', params: { id: dataCliente.id } }"
             class="text-lime-400 hover:text-lime-500 mr-5"
           >
             Editar
