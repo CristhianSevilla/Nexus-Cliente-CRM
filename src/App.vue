@@ -1,10 +1,11 @@
 <script setup>
-import { RouterView } from "vue-router";
+import { RouterView, RouterLink } from "vue-router";
 </script>
 
 <template>
   <header>
-    <div
+    <RouterLink
+      :to="{ name: 'inicio' }"
       class="mx-auto px-5 xl:max-w-7xl py-7 flex items-center border-b border-gray-400"
     >
       <img class="w-20 mr-5" src="/icon.svg" alt="Logo" />
@@ -14,7 +15,7 @@ import { RouterView } from "vue-router";
         </h1>
         <p class="text-blue-100 capitalize">Donde cada interacción cuenta</p>
       </div>
-    </div>
+    </RouterLink>
   </header>
 
   <main class="max-w-7xl mx-auto mt-10 px-5">
