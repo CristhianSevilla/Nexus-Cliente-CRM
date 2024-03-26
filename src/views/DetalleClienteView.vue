@@ -1,10 +1,11 @@
 <script setup>
 import { onMounted, reactive, computed } from "vue";
-import { RouterLink, useRoute } from "vue-router";
+import { RouterLink, useRoute, useRouter } from "vue-router";
 import Heading from "@/components/UI/Heading.vue";
 import ClienteService from "../services/ClienteService";
 import ImagenUsuario from "../img/user.png";
 
+const router = useRouter();
 const route = useRoute();
 
 const { id } = route.params;
@@ -38,6 +39,12 @@ const nombreCliente = computed(() => {
 const estadoCliente = computed(() => {
   return dataCliente.estado;
 });
+
+const eliminarCliente = () => {
+  ClienteService.eliminarCliente(dataCliente.id)
+    .then(() => router.push({ name: "inicio" }))
+    .catch((error) => console.log(error));
+};
 </script>
 
 <template>
@@ -112,7 +119,7 @@ const estadoCliente = computed(() => {
           </RouterLink>
           <button
             class="text-red-500 hover:text-red-600"
-            @click="$emit('eliminar-cliente')"
+            @click="eliminarCliente"
           >
             Eliminar
           </button>

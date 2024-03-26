@@ -1,17 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Cristhian Uriel",
-      "apellidoP": "Sevilla",
-      "apellidoM": "Ramírez",
-      "email": "crissev17@gmail.com",
-      "telefono": "729-360-6532",
-      "empresa": "Exos",
-      "puesto": "Developer Jr",
-      "estado": true,
-      "id": "ca53"
-    },
-    {
       "id": "c547",
       "nombre": "Jefferson Nicolas ",
       "apellidoP": "Vera",
@@ -65,6 +54,17 @@
       "empresa": "DelRamz",
       "puesto": "Químico",
       "estado": 1
+    },
+    {
+      "id": "782e",
+      "nombre": "Cristhian Uriel",
+      "apellidoP": "Sevilla",
+      "apellidoM": "Ramírez",
+      "email": "crissev17@gmail.com",
+      "telefono": "729-360-6532",
+      "empresa": "Exos Technology",
+      "estado": 1,
+      "puesto": "Developer Front-End"
     }
   ]
 }
