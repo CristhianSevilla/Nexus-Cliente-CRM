@@ -52,7 +52,7 @@ const handleSubmit = (data) => {
   >
     <FormKit
       type="form"
-      submit-label="Editar Cliente"
+      submit-label="Actualizar Cliente"
       incomplete-message="No se pudo agregar"
       @submit="handleSubmit"
       :value="formData"
