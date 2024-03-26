@@ -8,14 +8,12 @@ import ImagenUsuario from "../img/user.png";
 const route = useRoute();
 
 const { id } = route.params;
-console.log(id);
 
 const dataCliente = reactive({});
 
 onMounted(() => {
   ClienteService.obtenerCliente(id)
     .then(({ data }) => {
-      console.log(dataCliente);
       Object.assign(dataCliente, data);
     })
     .catch((error) => console.log(error));
@@ -35,6 +33,10 @@ const nombreCliente = computed(() => {
     " " +
     dataCliente.apellidoM
   );
+});
+
+const estadoCliente = computed(() => {
+  return dataCliente.estado;
 });
 </script>
 
@@ -65,9 +67,21 @@ const nombreCliente = computed(() => {
         />
       </div>
 
-      <p class="text-gray-300 font-bold flex flex-col text-lg mb-4">
-        {{ nombreCliente }}
-      </p>
+      <div>
+        <p
+          class="inline-flex rounded-full text-xs font-semibold leading-5 border"
+          :class="[
+            estadoCliente
+              ? 'bg-green-200 text-green-800 border-green-700 px-3'
+              : 'bg-red-200 text-red-800 border-red-800 px-2',
+          ]"
+        >
+          {{ estadoCliente ? "Activo" : "Inactivo" }}
+        </p>
+        <p class="text-gray-300 font-bold flex flex-col text-lg mb-4">
+          {{ nombreCliente }}
+        </p>
+      </div>
     </div>
     <div class="md:grid md:grid-cols-2 md:gap-10">
       <div>
@@ -88,10 +102,6 @@ const nombreCliente = computed(() => {
         <p class="text-gray-300 font-bold flex flex-col mb-2">
           Teléfono:
           <span class="text-gray-400 text-sm">{{ dataCliente.telefono }}</span>
-        </p>
-        <p class="text-gray-300 font-bold flex flex-col mb-2">
-          Estado:
-          <span class="text-gray-400 text-sm">{{ dataCliente.estado }}</span>
         </p>
         <div class="flex mt-4">
           <RouterLink
