@@ -1,12 +1,40 @@
 <script setup>
-import { RouterLink } from "vue-router";
+import { onMounted, reactive, computed } from "vue";
+import { RouterLink, useRoute } from "vue-router";
 import Heading from "@/components/UI/Heading.vue";
+import ClienteService from "../services/ClienteService";
 import ImagenUsuario from "../img/user.png";
+
+const route = useRoute();
+
+const { id } = route.params;
+console.log(id);
+
+const dataCliente = reactive({});
+
+onMounted(() => {
+  ClienteService.obtenerCliente(id)
+    .then(({ data }) => {
+      console.log(dataCliente);
+      Object.assign(dataCliente, data);
+    })
+    .catch((error) => console.log(error));
+});
 
 defineProps({
   titulo: {
     type: String,
   },
+});
+
+const nombreCliente = computed(() => {
+  return (
+    dataCliente.nombre +
+    " " +
+    dataCliente.apellidoP +
+    " " +
+    dataCliente.apellidoM
+  );
 });
 </script>
 
@@ -38,32 +66,32 @@ defineProps({
       </div>
 
       <p class="text-gray-300 font-bold flex flex-col text-lg mb-4">
-        Cristhian Uriel Sevilla Ramirez
+        {{ nombreCliente }}
       </p>
     </div>
     <div class="md:grid md:grid-cols-2 md:gap-10">
       <div>
         <p class="text-gray-300 font-bold flex flex-col mb-2">
           Empresa:
-          <span class="text-gray-400 text-sm">Exos Technology</span>
+          <span class="text-gray-400 text-sm">{{ dataCliente.empresa }}</span>
         </p>
         <p class="text-gray-300 font-bold flex flex-col mb-2">
           Puesto:
-          <span class="text-gray-400 text-sm">JR Developer Frontend</span>
+          <span class="text-gray-400 text-sm">{{ dataCliente.puesto }}</span>
         </p>
         <p class="text-gray-300 font-bold flex flex-col mb-2">
           Email:
-          <span class="text-gray-400 text-sm">crissev@gmail.com</span>
+          <span class="text-gray-400 text-sm">{{ dataCliente.email }}</span>
         </p>
       </div>
       <div>
         <p class="text-gray-300 font-bold flex flex-col mb-2">
           Teléfono:
-          <span class="text-gray-400 text-sm">123-456-7890</span>
+          <span class="text-gray-400 text-sm">{{ dataCliente.telefono }}</span>
         </p>
         <p class="text-gray-300 font-bold flex flex-col mb-2">
           Estado:
-          <span class="text-gray-400 text-sm">Activo</span>
+          <span class="text-gray-400 text-sm">{{ dataCliente.estado }}</span>
         </p>
         <div class="flex mt-4">
           <RouterLink
